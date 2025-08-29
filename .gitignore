@@ -1,0 +1,23 @@
+# Fichiers Terraform
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Répertoires Terraform
+.terraform/
+
+# Fichiers de variables sensibles (si tu en crées)
+*.tfvars
+*.tfvars.json
+
+# Logs et autres fichiers temporaires
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Système
+.DS_Store
+Thumbs.db
+.terraform/
